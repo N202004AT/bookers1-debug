@@ -167,7 +167,8 @@ GEM
       unparser
     procto (0.0.3)
     public_suffix (4.0.4)
-    puma (3.12.4)
+    puma (4.3.9)
+      nio4r (~> 2.0)
     rack (2.2.2)
     rack-protection (2.0.8.1)
       rack
@@ -330,7 +331,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.2.3)
   rails-controller-testing
   refile!
